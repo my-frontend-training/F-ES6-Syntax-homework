@@ -19,5 +19,6 @@ const output = [
 ];
 
 test("parse data to expect result", () => {
+  console.log(parseData(input));;
   expect(parseData(input)).toEqual(output);
 });
