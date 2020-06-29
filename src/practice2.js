@@ -8,7 +8,6 @@ const inject = (array, arrayObject) => {
     } else {
       array.splice(obj.index + num - 1, 0, obj.content);
     }
-    // console.log(array);
   }
   return array;
 };
